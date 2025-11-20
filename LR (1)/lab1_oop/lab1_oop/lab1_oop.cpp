@@ -5,7 +5,7 @@ int main()
 {
     setlocale(LC_ALL, "RU");
     int length;
-    cout << "Введите длину массива1: ";
+    cout << "Введите длину массива: ";
     cin >> length;
     if (length <= 0)
     {
