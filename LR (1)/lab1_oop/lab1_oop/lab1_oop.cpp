@@ -9,7 +9,7 @@ int main()
     cin >> length;
     if (length <= 0)
     {
-        cout << "Некорректное число" << endl;
+        cout << "Некорректное число1" << endl;
         exit(0);
     }
     int* mas = new int[length];
