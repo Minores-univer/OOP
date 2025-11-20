@@ -112,7 +112,7 @@ class Library
         }
 };
 
-void main()
+int main()
 {
     setlocale(LC_ALL, "RU");
     Library library;
@@ -144,4 +144,5 @@ void main()
     {
         cerr << "Ошибка: " << e.what() << endl;
     }
+    return 0;
 }

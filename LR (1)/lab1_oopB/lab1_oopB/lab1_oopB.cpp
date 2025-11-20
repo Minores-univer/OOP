@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-void main()
+int main()
 {
     setlocale(LC_ALL, "RU");
     int length = 10;
@@ -23,4 +23,5 @@ void main()
         cout << "Элемент mas[" << i << "]. Адрес: " << &mas[i] << ". Расстояние " << distance * sizeof(double) << " байта" << endl;
     }
     delete[] mas;
+    return 0;
 }
